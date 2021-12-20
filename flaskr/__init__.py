@@ -2,6 +2,7 @@ import os
 
 from flask import Flask
 
+# application factory function "create_app"
 def create_app(test_config=None):
 
     # create and config
